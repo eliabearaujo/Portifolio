@@ -11,7 +11,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: hsl(var(--hue), var(--sat), #fff%);
+  --container-color: #fff;
 
   /* Tipografia */
   --body-font: 'Poppins', sans-serif;
@@ -149,4 +149,18 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+/* Responsivo */
+@media screen and (max-width: 62rem) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+@media screen and (max-width: 22rem) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
