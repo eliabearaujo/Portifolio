@@ -5,11 +5,16 @@ const Data = () => {
   return (
     <div className="home_data">
       <h1 className="home_title">
-        Eliabe Araujo <Hand />
+        Eliabe Araujo <Hand className="home_hand" />
       </h1>
       <h3 className="home_subtitle">Web Designer</h3>
       <p className="home_description">
-        BKLoasdoiuahsduioasdhaisupdhapsudhapsiduhasdpiuashdpiausdhaisudhaspiudhapsiudhapsiudhaipsudhapisudh
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        vehicula massa sed diam porta, at vestibulum leo suscipit. Curabitur
+        maximus sodales enim vestibulum tristique. Ut fringilla convallis leo,
+        sed pulvinar massa imperdiet vitae. Nunc in lorem scelerisque, varius
+        est non, tristique lacus. Nullam ultricies placerat quam vitae
+        ultricies. Quisque sed eleifend metus.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
