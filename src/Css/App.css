@@ -157,8 +157,23 @@ img {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .button_icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 49rem) {
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 @media screen and (max-width: 22rem) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);

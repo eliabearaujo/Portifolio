@@ -6,6 +6,8 @@ const ScrollDown = () => {
     <div className="home_scroll">
       <a href="" className="home_scroll_button button--flex">
         <Scroll />
+        <span className="home_scroll_name">Scroll Down</span>
+        <i className="uil uil-arrow-down home_scroll_arrow"></i>
       </a>
     </div>
   );
