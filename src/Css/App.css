@@ -166,8 +166,14 @@ img {
   }
 }
 @media screen and (max-width: 49rem) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
   .section {
     padding: 2rem 0 4rem;
+  }
+  .section_subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 @media screen and (max-width: 22rem) {
