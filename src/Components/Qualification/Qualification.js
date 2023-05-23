@@ -19,6 +19,22 @@ const Qualification = () => {
             Experience
           </div>
         </div>
+
+        <div className="qualification_sections">
+          <div className="qualification_content">
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title"></h3>
+                <span className="qualification_subtitle">
+                  Spain - Institute
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
