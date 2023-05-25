@@ -7,7 +7,7 @@ const Data = () => {
       <h1 className="home_title">
         Eliabe Araujo <Hand className="home_hand" />
       </h1>
-      <h3 className="home_subtitle">Desenvolvedor Web</h3>
+      <h3 className="home_subtitle">Desenvolvedor Web / Data Analyst</h3>
       <p className="home_description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
         vehicula massa sed diam porta, at vestibulum leo suscipit. Curabitur
