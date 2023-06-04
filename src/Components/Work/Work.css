@@ -54,3 +54,43 @@
 .work_button:hover .work_button_icon {
   transform: translateX(0.25rem);
 }
+.active_work {
+  background-color: var(--title-color);
+  color: var(--container-color);
+}
+
+@media screen and (max-width: 62rem) {
+  .work_container {
+    gap: 1.25rem;
+  }
+  .work_card {
+    padding: 1rem;
+  }
+  .work_image {
+    margin-bottom: 0.75rem;
+  }
+  .work_title {
+    margin-bottom: 0.25rem;
+  }
+}
+@media screen and (max-width: 49rem) {
+  .work_container {
+    grid-template-columns: max-content;
+  }
+}
+@media screen and (max-width: 36rem) {
+  .work_container {
+    grid-template-columns: 1fr;
+  }
+  .work_image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 22rem) {
+  .work_item {
+    font-size: var(--small-font-size);
+  }
+  .work_filters {
+    column-gap: 0.25rem;
+  }
+}
