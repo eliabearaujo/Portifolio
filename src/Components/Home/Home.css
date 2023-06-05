@@ -26,15 +26,15 @@
 }
 .home_subtitle {
   position: relative;
-  font-size: var(--h3-font-size);
-  padding-left: 5.4rem;
+  font-size: 1.2rem;
+  padding-left: 1.5rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
 }
 .home_subtitle::before {
   position: absolute;
   content: '';
-  width: 70px;
+  width: 20px;
   height: 1px;
   background-color: var(--text-color);
   left: 0;
