@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Qualification from './Components/Qualification/Qualification';
 import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Qualification />
         <Work />
         <Contact />
+        <Footer />
       </main>
     </>
   );
