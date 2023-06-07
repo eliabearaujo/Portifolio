@@ -7,14 +7,11 @@ const Data = () => {
       <h1 className="home_title">
         Eliabe Araujo <Hand className="home_hand" />
       </h1>
-      <h3 className="home_subtitle">Desenvolvedor Web / Data Analyst</h3>
+      <h3 className="home_subtitle">Data Analyst | Web Developer</h3>
       <p className="home_description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-        vehicula massa sed diam porta, at vestibulum leo suscipit. Curabitur
-        maximus sodales enim vestibulum tristique. Ut fringilla convallis leo,
-        sed pulvinar massa imperdiet vitae. Nunc in lorem scelerisque, varius
-        est non, tristique lacus. Nullam ultricies placerat quam vitae
-        ultricies. Quisque sed eleifend metus.
+        Apaixonado por tecnologia e inovação, sou um Analista de Dados
+        estabelecido em São Paulo,embarcando em uma nova jornada no
+        desenvolvimento web.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
